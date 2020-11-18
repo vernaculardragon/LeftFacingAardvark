@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LeftFacingAardvark</name>
+    </assembly>
+    <members>
+        <member name="M:LeftFacingAardvark.Controllers.AgentController.Get">
+            <summary>
+            Gets a Basic Summary of all Agents
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeftFacingAardvark.Controllers.AgentController.Get(System.Int32)">
+            <summary>
+            Gets details of a single agent by ID
+            </summary>
+            <param name="Id">The ID of the agent</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeftFacingAardvark.Controllers.AgentController.Post(LeftFacingAardvark.Models.Agent)">
+            <summary>
+            Creates a new Agent and returns the agents details once created
+            </summary>
+            <param name="agent">The information of the agent to be added</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeftFacingAardvark.Controllers.AgentController.Put(System.Int32,LeftFacingAardvark.Models.Agent)">
+            <summary>
+            Updates an Agent
+            </summary>
+            <param name="id">The ID of the agent</param>
+            <param name="agent">The agent information to update</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeftFacingAardvark.Controllers.CustomerController.Get(System.Int32)">
+            <summary>
+            Gets a basic Summary of all Customers for an Agent
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeftFacingAardvark.Controllers.CustomerController.Get(System.Int32,System.Int32)">
+            <summary>
+            Gets details of a single Customer by ID
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeftFacingAardvark.Controllers.CustomerController.Post(System.Int32,LeftFacingAardvark.Models.Customer)">
+            <summary>
+            Creates a new Customer and returns the agents details once created
+            </summary>
+            <param name="agent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeftFacingAardvark.Controllers.CustomerController.Put(System.Int32,System.Int32,LeftFacingAardvark.Models.Customer)">
+            <summary>
+            Updates a Customer
+            </summary>
+            <param name="id"></param>
+            <param name="agent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeftFacingAardvark.Controllers.CustomerController.Delete(System.Int32,System.Int32)">
+            <summary>
+            Deletes an Customer Based on ID 
+            should probably have more validation to ensure no spam deletions
+            </summary>
+            <param name="id"></param>
+            <param name="agent"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
