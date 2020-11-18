@@ -14,7 +14,7 @@ Questions I would ask and assumptions made on those questions:
 	k. should we use a repository Pattern to enable easy switching of data sources and logic?
 	l. are customers dependant on agents? 
 	m. UI claims that we will show City and state for customers but city and state are not given.
-	n. Return all customer data is under Agnet's Customer detail. should I assume this is customers for that agent only?
+	n. Return all customer data is under Agent's Customer detail. should I assume this is customers for that agent only?
 
 Data Question Answers - Assumptions Used
 1.	
